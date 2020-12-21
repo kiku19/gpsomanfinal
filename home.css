@@ -1,0 +1,120 @@
+#three
+{
+	display: flex;
+	justify-content: center;
+	/*height: 600px;
+*/	width: 100%;
+	flex-wrap: wrap;
+}
+.homet {
+    background-color: #009FE1;
+    color: white !important;
+}
+#three-top
+{
+	display: flex;
+	align-self: center;
+	justify-content: center;
+	width: 100%;
+	/*height: 300px;*/
+}
+#three-top img
+{
+	width: 300px;
+	height: 300px;
+}
+
+
+@media(max-width:992px)
+{
+	#three-bottom
+	{
+		width: 75% !important ;
+	/*	height: 300px;*/
+	}	
+}
+#three-bottom
+{
+	width: 40%;
+/*	height: 300px;*/
+}
+#three-bottom p
+{
+	font-size: 18px;
+	font-family: calibri;
+	text-align: justify;
+}
+#three-bottom h1
+{
+	padding: 20px;
+	text-align: center;
+	color: #009FE1
+}
+.vision1
+{
+	text-align: left;
+	color: #009FE1;
+}
+.mission1
+{
+	text-align: right;
+	color: #009FE1;
+}
+.vision2
+{
+	text-align: left;
+	font-weight: 400;
+}
+.mission2
+{
+	text-align: right;
+	font-weight: 400;
+}
+
+.intro {
+    position: relative;
+    bottom: 50px;
+    justify-content: center;
+    display: flex;
+}
+
+
+@media (max-width:992px)
+{
+	.intro {
+		position: relative;
+		bottom: 0px;
+		justify-content: center;
+		display: flex;
+	}
+}
+footer {
+
+    display: flex;
+    justify-content: center;
+	flex-wrap: wrap;
+    background-color: black;
+	height: 90px;
+	position: relative;
+}
+@media(max-width: 975px){
+footer {
+    position: relative;
+	top: 90px;
+	height: 110px;
+}
+}
+footer p
+{
+	text-align: center;
+	color: white;
+	font-size: 12px;
+	margin: 35px;
+}
+
+footer a
+{
+	text-align: center;
+	width: 100%;
+	font-size: 58px;
+}
