@@ -1,0 +1,20 @@
+section#about {
+    padding-bottom: 0px;
+}
+@media (min-width:1024px){
+    .container-fluid.py-5{
+        width: 100%;
+    }
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    font-family: Calibri !important;
+}
+
+ul.slick-dots {
+    display: none !important;
+}
+#oil {
+    position: relative;
+    top: 60px;
+}
