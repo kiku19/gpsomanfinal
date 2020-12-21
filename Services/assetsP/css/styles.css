@@ -1,0 +1,13 @@
+
+@media (min-width: 768px)
+{}
+.col-md-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 95% !important;
+}
+}
+.cid-sh2YBhoA1e {
+    padding-top: 0px;    padding-bottom: 60px;
+    background-color: #ffffff;
+}
