@@ -1,0 +1,39 @@
+#one
+{
+    position: relative;
+    width: 80%;
+    /* height:1075px; */
+    margin: auto;
+    /* background-image: url("./cs1.svg");
+    background-size: cover; */
+}
+
+#head
+{
+    position: relative;
+    text-align: center;
+    padding-bottom: 30px;
+    /*left: -17px;*/
+    font-family: calibri;
+}
+
+@media(min-width: 975px)
+{
+    #head
+    {
+        left: -17px;
+    }
+}
+
+@media(max-width: 975px)
+{
+#head
+{
+    top: 82px;
+}
+#one
+{
+    top: 82px;
+
+}
+}
