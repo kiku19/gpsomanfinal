@@ -144,6 +144,10 @@ h2.text-center {
 	justify-content: flex-end;
 	margin-right: 30px;
 }
+.logo .right div {
+    padding: 10px;
+    font-family: calibri;
+}
 .logo .left
 {
 	float: left;
