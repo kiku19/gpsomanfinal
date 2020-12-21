@@ -1,0 +1,32 @@
+.headingg {
+    display: flex;
+    justify-content: center;
+}
+h3 h1 h2 h4{
+
+        font-family: calibri;
+        font-weight: 400;
+        font-size: 2rem !important;
+
+}
+button.slick-prev.slick-arrow {
+    display: none !important;
+}
+button.slick-next.slick-arrow {
+    display: none !important;
+}
+div#carousel-1 {
+    width: 100% !important;
+}
+@media (max-width: 500px){}
+.logo img {
+    transform: scale(1) translate(0px,0px) !important;
+}
+p.prob {
+    padding-top: 50px;
+}
+@media(max-width:1199px){
+    p.prob {
+        padding-top: 0px;
+    }
+}
